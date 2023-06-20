@@ -14,3 +14,26 @@ Create a new enviroment for the project
 ```
 conda create -p venv python==3.7 -y
 ```
+
+### Deploy in Heroku Server
+
+In main.yaml file change with your Heroku Details
+
+```
+email: ${{ secrets.HEROKU_EMAIL }}
+heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+```
+
+### Run in local server
+
+Install requirements.txt 
+
+```
+!pip install -r requirements.txt
+```
+Run app.py
+
+```
+python app.py
+```
