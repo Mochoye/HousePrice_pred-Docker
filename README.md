@@ -1,5 +1,5 @@
 # HousePrice_pred-Docker
-This particular repo contains an ML model which predicts houses prices and is deployed using Docker and Google Cloud
+This particular repo contains an ML model which predicts houses prices and is deployed using Docker and Google Cloud Run
 
 Link - https://houseprice-pred-docker-baoubpfffa-em.a.run.app
 
